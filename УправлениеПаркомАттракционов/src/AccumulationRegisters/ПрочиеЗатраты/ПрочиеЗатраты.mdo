@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3565facc-a1c0-4750-a240-fccd0f9d44c5">
+  <producedTypes>
+    <selectionType typeId="70f4167b-11c6-4faf-b468-b851ab7cce72" valueTypeId="a4386c88-ec60-4e5d-bddf-8191084639c6"/>
+    <listType typeId="00161879-210e-4bd4-aeef-ee6e265be106" valueTypeId="c80420d2-e192-4b60-9255-0af0ee7bbe22"/>
+    <managerType typeId="89da77a1-3203-410a-8fe8-494658a1d219" valueTypeId="866341fd-35e8-4170-ae82-d17e588f8900"/>
+    <recordSetType typeId="283c55a0-07d2-49d3-a1cc-78e0d20b7823" valueTypeId="49cb0807-a259-48de-937d-ed0486363a6f"/>
+    <recordKeyType typeId="27242cb1-5e0d-43ab-aa5f-43be55da533d" valueTypeId="7dcb9b12-0bab-4a80-8478-8b8d3ae14baf"/>
+    <recordType typeId="2510b1d6-1d90-42b2-a76d-a9d7e4888e78" valueTypeId="ce000544-7f4f-4e90-aace-e27a0b20d3b2"/>
+  </producedTypes>
+  <name>ПрочиеЗатраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие затраты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="1eca06fd-2ba0-416a-a3e4-bc12093897d6">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d499595f-a13a-4ca8-acd6-5b1ba0034691">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

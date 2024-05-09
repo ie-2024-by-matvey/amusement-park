@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bcd8f21-882c-4ce8-95eb-5dc38c502f52">
+  <producedTypes>
+    <selectionType typeId="40502313-ede0-491b-9430-a4a237d4e07a" valueTypeId="eec96c76-de3b-425b-a2ec-5f6a31470106"/>
+    <listType typeId="804fea02-d4cf-4129-8681-aa53e5dce780" valueTypeId="6326b8ad-4456-455d-a126-8d163406f85e"/>
+    <managerType typeId="dc720ceb-4d67-43c9-b41a-111deb4f0d85" valueTypeId="35936012-436e-4b55-a164-4bb818d50f4f"/>
+    <recordSetType typeId="fb6aee07-c1f9-4861-8c0e-4989fa5b4148" valueTypeId="2bf84dda-9e34-4cbc-8da2-415ad4d24d46"/>
+    <recordKeyType typeId="dac0cf1b-0c8c-4b10-b171-1163d9223f22" valueTypeId="a366364b-2e12-4500-97b4-4c9fa16c30fb"/>
+    <recordType typeId="81f1acf0-ca5d-4f8c-8e4c-22aee8f7eed0" valueTypeId="3d9e1772-17e2-483b-9672-b3c001bc3d94"/>
+  </producedTypes>
+  <name>ЗатратыНаСодержаниеАттракционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты на содержание аттракционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b5e2db4c-2f2f-4afe-8b1d-cc72625182eb">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5a243025-d9c2-4b37-a3af-cdc00e36f691">
+    <name>Аттракцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттракцион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аттракционы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="c731ff3c-ca19-4c46-b02e-54536c462377">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

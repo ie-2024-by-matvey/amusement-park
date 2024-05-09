@@ -50,21 +50,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="aeb5bcb1-7d96-4b70-ac75-d63eafd71de4">
-    <name>ВидАттракциона</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид аттракциона</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВидыАттракционов</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
   <dimensions uuid="b4030a25-c9ca-4474-b031-b62be801729e">
     <name>Номенклатура</name>
     <synonym>

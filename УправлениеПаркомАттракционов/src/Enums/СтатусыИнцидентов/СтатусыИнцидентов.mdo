@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fc02355-ada1-4b07-ab86-7787e6400852">
+  <producedTypes>
+    <refType typeId="d2b540e8-83db-4d5a-9552-49202bc3c289" valueTypeId="6c295b70-4525-4c89-8a26-aeafda5d7744"/>
+    <listType typeId="3e96bba9-9970-455a-9902-166a54765755" valueTypeId="1ca4c140-21cd-4ac8-bdd3-3ff0b6af9117"/>
+    <managerType typeId="e5c9d251-7ca7-4506-817b-261de305dc0b" valueTypeId="21b98536-fed9-4710-a1b3-e7a08cbedcc4"/>
+  </producedTypes>
+  <name>СтатусыИнцидентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы инцидентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a0034db6-36c3-4b79-906f-e6b89a945746">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91eee2d3-0067-4d50-9ef5-d3327b60f4c0">
+    <name>Расследование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расследование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32452102-a084-44ee-a4d0-458c1fcf55d0">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

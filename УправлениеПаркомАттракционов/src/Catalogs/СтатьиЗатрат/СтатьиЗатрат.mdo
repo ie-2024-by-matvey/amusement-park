@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3243c02b-05fc-4b71-bbcc-8ea05b6f9906">
+  <producedTypes>
+    <objectType typeId="ed5452c8-15c2-4c8c-852c-7f82043bf12f" valueTypeId="02ab6ea9-a6f9-42c7-9d3b-3517a33e1633"/>
+    <refType typeId="cd9f0332-7033-4dc2-8318-c43f3a0b9661" valueTypeId="74b16861-82ed-42d7-9c25-7ed91d51f34b"/>
+    <selectionType typeId="b62e52f6-e74a-4ef1-85c8-3e546a2d8749" valueTypeId="2a2280db-d488-4e76-884a-ab0921dd0de7"/>
+    <listType typeId="3af9d952-6324-48ad-84d3-d3afa885d579" valueTypeId="319837f9-79d5-4150-bae3-4f285f4ddcf2"/>
+    <managerType typeId="9f0a5924-3c4a-4557-b5ab-35ed9d59efd6" valueTypeId="37a7bf93-53e5-4573-bb12-ced342d78165"/>
+  </producedTypes>
+  <name>СтатьиЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

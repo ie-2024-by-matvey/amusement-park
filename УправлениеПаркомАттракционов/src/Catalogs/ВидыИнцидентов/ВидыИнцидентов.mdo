@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="730763d2-32ee-4af7-bae4-7ea4c896e931">
+  <producedTypes>
+    <objectType typeId="1ea93431-4643-443b-aaa9-37333cc7b7ac" valueTypeId="befc3271-3e39-4237-a23c-2a4df5e021ca"/>
+    <refType typeId="1613f808-4f11-40cb-9316-1ce67080f99d" valueTypeId="4552aa48-bc18-4c45-907c-a388110095f1"/>
+    <selectionType typeId="0ed7eb7d-d607-4bce-a445-e5443debc56e" valueTypeId="459a3556-442e-479e-a3eb-3687eb29a38d"/>
+    <listType typeId="96b612ab-d136-4f55-90ab-2d39a3e0cbd7" valueTypeId="86e0379d-a693-401f-bc3c-8876ba374983"/>
+    <managerType typeId="15c5eae8-35a1-40db-8fc9-d2e89a79ca80" valueTypeId="fbbb0d4f-e518-408d-9131-11a7e7d98352"/>
+  </producedTypes>
+  <name>ВидыИнцидентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды инцидентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыИнцидентов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыИнцидентов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

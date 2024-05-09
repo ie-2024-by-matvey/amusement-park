@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1729c70-39f6-4bfb-90c5-df882cbaf770">
+  <producedTypes>
+    <objectType typeId="47efe4b9-2b0a-43be-bf0a-f21099483c3f" valueTypeId="4d25aa07-4009-48a5-ba4d-268e0207c4e5"/>
+    <refType typeId="0e6893b5-a18c-4aa9-a1f3-453456d95536" valueTypeId="e4fef80f-6dc9-4be3-bd87-c7f364e13b9a"/>
+    <selectionType typeId="20757b3f-0097-4f43-8261-680bd867eef2" valueTypeId="6cac2ddf-0295-4267-a088-073b0f636b73"/>
+    <listType typeId="b795183f-b5a0-4a45-bf01-0e168174001f" valueTypeId="9b0d4dd4-4a71-48d6-8c2e-9266843c0474"/>
+    <managerType typeId="4053cab5-cd48-412c-89cb-4859be368aa6" valueTypeId="7132e24a-d034-4131-bf7f-ec4786a28719"/>
+  </producedTypes>
+  <name>ОпросыПосетителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опросы посетителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОпросыПосетителей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2ce4d72e-cc5a-4388-a96e-7bfd2d010710">
+    <name>ОценкаПарка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка парка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5594bdd0-811e-4e08-9b8e-28fa1023aee0">
+    <name>ОценкаПитания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка питания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="52f3bd61-4cf0-4a72-a104-944f60180e2b">
+    <name>ОценкаЧистоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка чистоты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="871aa2f1-703b-4d4d-8038-8905126729ba">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПолФизическогоЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0275706d-eddc-44b9-9f29-1b87b915bcd1">
+    <name>Возраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возраст</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="40d1b79f-2b72-4cc8-b732-4a73e8994a85">
+    <producedTypes>
+      <objectType typeId="af49a3d2-2bdc-4d14-be51-8f26b23edbd4" valueTypeId="6d6bc1e7-4d53-4172-a5b3-b0e80b43b61e"/>
+      <rowType typeId="9f46315f-40a1-48f6-8528-31e831ca2f29" valueTypeId="f02aa465-59fc-4348-9917-382de468d799"/>
+    </producedTypes>
+    <name>ОценкиАттракционов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценки аттракционов</value>
+    </synonym>
+    <attributes uuid="f74e81d5-ec96-44f8-8cf6-013ab5c9b9d4">
+      <name>Аттракцион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аттракцион</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Аттракционы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d2604783-80ca-4441-9ec3-a71774854a97">
+      <name>Оценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

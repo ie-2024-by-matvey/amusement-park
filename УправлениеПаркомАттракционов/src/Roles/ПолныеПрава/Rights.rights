@@ -124,7 +124,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Пользователи</name>
+		<name>Catalog.Сотрудники</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>

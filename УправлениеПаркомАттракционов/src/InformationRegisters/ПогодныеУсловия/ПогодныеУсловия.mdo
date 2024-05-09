@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="684583a6-d9b9-4525-837c-bac4e3315583">
+  <producedTypes>
+    <selectionType typeId="74c92e92-c39c-41bc-960c-22affbd40010" valueTypeId="31b3193b-34e1-4748-beb4-cf23bec4261b"/>
+    <listType typeId="04d9f9ca-0779-4152-aae5-d5ca7bd383a0" valueTypeId="9ad19d04-1a71-4d71-bd53-d76779a29037"/>
+    <managerType typeId="0660b9e0-022d-489e-b6e3-0d8e15bfcbe6" valueTypeId="68cb68e3-a79d-4967-aec1-51057c2bb05a"/>
+    <recordSetType typeId="207d5cb0-dacf-4455-a1fd-a11c3d321462" valueTypeId="24c39b67-ac7f-4264-ab59-ff1f1695ed0b"/>
+    <recordKeyType typeId="22fd21da-bdbf-4ed3-b3b7-55ef12cdfd10" valueTypeId="8a231831-c0a7-43f6-8b25-ddff68a6bd4c"/>
+    <recordType typeId="e4426c9d-588a-4b73-9374-0cff21a19d00" valueTypeId="8d2c2a3a-8ddb-441a-aa4d-082aceb1f9db"/>
+    <recordManagerType typeId="5fd11e40-2d36-498a-99a2-3938cca24756" valueTypeId="f08b88d9-cbc2-4c66-a9de-8d9367c00b1a"/>
+  </producedTypes>
+  <name>ПогодныеУсловия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Погодные условия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="588b26f2-8c88-41af-ada4-913e19f86e05">
+    <name>СредняяТемпература</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя температура</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9dab5f34-7849-4d65-9e8b-d65b3038590d">
+    <name>СредняяСкоростьВетра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя скорость ветра</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="966ab1f5-379a-43c5-bdc7-32db15f00201">
+    <name>ПроцентВремениОсадков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент времени осадков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cd603f95-9bd0-4c54-bbc5-5416e1cbb390">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период измерения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

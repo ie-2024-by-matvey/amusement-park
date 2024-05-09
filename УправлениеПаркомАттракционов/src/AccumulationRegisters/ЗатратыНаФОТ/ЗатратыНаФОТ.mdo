@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cae9cb4-5534-4570-bab0-fc89d986097f">
+  <producedTypes>
+    <selectionType typeId="f8fa5727-8d3e-494b-b6b6-145bd07f5f82" valueTypeId="5ecf8835-c6d7-4c2e-82b6-6eba54d62486"/>
+    <listType typeId="17e3fb90-b671-47b0-8d50-100bacbc39d2" valueTypeId="b41ca221-1227-4531-8c61-4c1e8b3a9cb3"/>
+    <managerType typeId="c4a2127c-40a7-4789-b628-e5c1965c25c1" valueTypeId="b0f4fe29-b2b5-46b7-880f-e373c9aa78b7"/>
+    <recordSetType typeId="a330a147-cf90-467d-93a0-389aa7f4ed1b" valueTypeId="3475813d-2f41-4086-9228-96977d9e43ff"/>
+    <recordKeyType typeId="8b12b2a4-d798-4960-82af-2597ea9e6877" valueTypeId="e218aa44-f0a1-4a0e-a199-7bfc6850da08"/>
+    <recordType typeId="16e40e41-612f-4429-8920-3856ce74a60d" valueTypeId="c747bc22-25a6-40ba-929b-9626da9bcf8f"/>
+  </producedTypes>
+  <name>ЗатратыНаФОТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты на ФОТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c09ac6bf-eccc-4fe8-8d63-a779732b2c19">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9f20c80d-6c19-445a-b6f5-394fa8ed28b1">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="6649b95f-f992-4722-8855-13cf282cb91e">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>
