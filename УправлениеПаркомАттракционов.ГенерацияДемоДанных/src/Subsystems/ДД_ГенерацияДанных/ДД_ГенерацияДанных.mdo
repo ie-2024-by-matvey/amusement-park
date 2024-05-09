@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6522077c-ca9f-4ac3-a69a-7637bd6afa7c">
+  <name>ДД_ГенерацияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделАдминистрирование</picture>
+  </picture>
+</mdclass:Subsystem>

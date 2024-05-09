@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="56253d49-1c1f-4a91-aa65-41b74cb5ecd2">
+  <name>ГенерацияДемоДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация демо данных</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1a1df8fd-d92a-4970-8090-d10588f15cce"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8c11f763-14cb-4a45-b0c3-12c305ca7ac9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e250c559-5ab6-47d0-adfe-6db0f18574ca"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a5fa8337-6532-4757-a7cc-2b7e17210acf"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ddd93c24-d196-4a2c-b23c-a3c964c1f423"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="04577b23-177e-430a-a0fd-c9ebcf914561"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="218573c5-1e46-4002-9272-a65458ede439"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ДД_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.22</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="37a79e77-121f-41ff-8141-f2fe5b7f943a">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ДД_ГенерацияДанных</subsystems>
+  <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
+  <dataProcessors>DataProcessor.ГенерацияТестовыхДанных</dataProcessors>
+</mdclass:Configuration>
