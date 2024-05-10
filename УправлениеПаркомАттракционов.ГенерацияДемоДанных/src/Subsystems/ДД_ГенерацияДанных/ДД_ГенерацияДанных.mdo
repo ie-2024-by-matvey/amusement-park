@@ -10,4 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделАдминистрирование</picture>
   </picture>
+  <content>DataProcessor.ГенерацияТестовыхДанных</content>
+  <content>InformationRegister.ДД_ПопулярностьАттракционов</content>
+  <content>InformationRegister.ДД_ПредпочтенияКлиентов</content>
 </mdclass:Subsystem>

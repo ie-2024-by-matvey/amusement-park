@@ -31,6 +31,15 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e49b6d48-cd18-4163-ad0d-56b8479420e8">
+      <name>РозничныйПокупатель</name>
+      <description>Розничный покупатель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="eccafab7-7109-446e-972e-4c1193361b82">

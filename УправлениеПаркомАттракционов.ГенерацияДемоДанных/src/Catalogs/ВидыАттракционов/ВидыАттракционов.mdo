@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5904f655-2619-47d9-942e-f8cd1c5c52a8" extendedConfigurationObject="3c254ff4-d22f-43e9-95fb-e057f6a758eb">
+  <producedTypes>
+    <objectType typeId="35a4d64b-c3ea-4857-88ee-47c5040f30f2" valueTypeId="ee9961cb-aa82-444b-bbd4-2e9609c6cb67"/>
+    <refType typeId="82fbfe40-ced1-46ae-8cd3-1957f5a71bc2" valueTypeId="b20ad000-d253-46a9-8101-13d88131af96"/>
+    <selectionType typeId="39b09bde-ab3b-4089-8176-0567a593d2f6" valueTypeId="a6f05b6d-c1a2-4f69-8bdb-c8ae4330fc28"/>
+    <listType typeId="960e9796-9fb8-4cd6-b37c-fb5f00ef9630" valueTypeId="df639e58-7b91-4f3e-86cb-998b2675d1fe"/>
+    <managerType typeId="b041a7cc-0197-4803-b1ac-afffc0f00456" valueTypeId="bdd97cbf-7f55-4584-a417-a3e658dfe0c1"/>
+  </producedTypes>
+  <name>ВидыАттракционов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

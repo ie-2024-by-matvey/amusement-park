@@ -55,10 +55,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="966ab1f5-379a-43c5-bdc7-32db15f00201">
-    <name>ПроцентВремениОсадков</name>
+    <name>КоличествоОсадков</name>
     <synonym>
       <key>ru</key>
-      <value>Процент времени осадков</value>
+      <value>Количество осадков</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -73,7 +73,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="cd603f95-9bd0-4c54-bbc5-5416e1cbb390">
-    <name>День</name>
+    <name>ПериодИзмерения</name>
     <synonym>
       <key>ru</key>
       <value>Период измерения</value>

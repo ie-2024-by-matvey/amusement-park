@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b11d741c-3749-49e1-8042-35ec842ec0d3">
+  <producedTypes>
+    <selectionType typeId="3f0e215f-97f1-4623-8784-5c7c2c006d03" valueTypeId="348b8f2a-6f47-4265-99db-e292dc9f8806"/>
+    <listType typeId="405f121f-53b4-4371-972f-164234516eea" valueTypeId="1085f9eb-5d14-4b9d-8239-848101a7f501"/>
+    <managerType typeId="9bf0d3e1-8aca-4d82-b024-616cb7e66cda" valueTypeId="e739f981-cb99-4120-a0c6-11e7c249fa3d"/>
+    <recordSetType typeId="c4d6cfec-a984-4a9c-9556-6f8308aaa71e" valueTypeId="f54e1c56-4e5e-4709-9328-0d9babb3e418"/>
+    <recordKeyType typeId="764e544d-42ce-49f7-a119-1214dcdfb750" valueTypeId="76ea0e76-af4b-45d2-be89-4c312a5267bc"/>
+    <recordType typeId="5b6b467a-2c59-4473-994b-8a6d405b6004" valueTypeId="12c3a7c3-5650-42bd-9c3e-cdfa7ac3608b"/>
+    <recordManagerType typeId="df9d5634-83ea-4722-94c5-348341d9bfbe" valueTypeId="6e68405b-5460-4529-a8a6-d7ae5cbf847f"/>
+  </producedTypes>
+  <name>ДД_ПопулярностьАттракционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Популярность аттракционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8b040d34-1d06-4007-bd9c-99dab56042ec">
+    <name>Популярность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Популярность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bd2c32a7-27be-4a9f-92e1-2e5fe8768136">
+    <name>Аттракцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттракцион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аттракционы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

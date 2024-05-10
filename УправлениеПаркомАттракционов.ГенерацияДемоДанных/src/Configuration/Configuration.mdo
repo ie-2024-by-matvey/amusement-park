@@ -42,5 +42,11 @@
   </languages>
   <subsystems>Subsystem.ДД_ГенерацияДанных</subsystems>
   <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
+  <catalogs>Catalog.Аттракционы</catalogs>
+  <catalogs>Catalog.ВидыАттракционов</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <enums>Enum.ПолФизическогоЛица</enums>
   <dataProcessors>DataProcessor.ГенерацияТестовыхДанных</dataProcessors>
+  <informationRegisters>InformationRegister.ДД_ПопулярностьАттракционов</informationRegisters>
+  <informationRegisters>InformationRegister.ДД_ПредпочтенияКлиентов</informationRegisters>
 </mdclass:Configuration>

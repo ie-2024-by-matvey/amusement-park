@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c2ba0de-c251-4e11-b290-815a7cb23853">
+  <producedTypes>
+    <selectionType typeId="27a339ef-ffd8-4c03-90e5-3643c77a8405" valueTypeId="747a72a8-7329-4e23-b073-dd8d02ed9b70"/>
+    <listType typeId="18fbdeb6-a129-4580-9ff4-9d7573a19b96" valueTypeId="45db3129-b4a3-4d2d-bab6-26b0e1f4e8e7"/>
+    <managerType typeId="7505c40e-c851-4751-b0e3-3d707773b924" valueTypeId="f68ad09b-4812-4c40-b279-1444e5a070de"/>
+    <recordSetType typeId="6713c096-85f1-4115-b51c-d80ee8364528" valueTypeId="493d27fe-69c1-49ab-8dd6-7869b0cf2332"/>
+    <recordKeyType typeId="6ad469dd-8cbb-4077-9908-3c9d0b714164" valueTypeId="4da4dd7b-cf8e-4c6c-94ed-9cfde4997ec8"/>
+    <recordType typeId="dea23cc7-397e-4083-8f33-9396cbc3fca0" valueTypeId="c0b6d560-4bbf-4c7c-b76e-e38c743f0e30"/>
+    <recordManagerType typeId="36c78f0f-2c09-45b3-9c6e-ef8403806865" valueTypeId="72816909-a3f2-43e5-b5f9-1fac87743c5c"/>
+  </producedTypes>
+  <name>ДД_ПредпочтенияКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предпочтения клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e33ab13-e252-4c75-be0b-fee12e8dca85">
+    <name>ВидАттракциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид аттракциона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАттракционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c5f18517-8b5f-4a6a-9920-8ebf9de0adfe">
+    <name>КоличествоПосещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество посещений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3a4c3d1a-cd2b-4968-9674-5fab2fbd343a">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -16,4 +16,5 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Сотрудники</content>
   <content>CommonModule.НомераТелефоновКлиентСервер</content>
+  <content>InformationRegister.ПогодныеУсловия</content>
 </mdclass:Subsystem>
